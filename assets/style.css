@@ -4,29 +4,34 @@
 *{
 	padding: 0;
 	margin: 0;
+	background-color: black;
 }
 
 .box-1{
-	width: 400px;
-	padding: 10px;
 	background-color: black;
-	margin: 0px;
 	font-size: 25px;
 	color: white;
-
+	font-family: 'Titillium Web', sans-serif;
+	text-orientation: sideways;
 }
 
 .box-2 {
 	font-size: 15px;
-	width: 400px;
-	padding: 10px;
 	background-color: black;
-	margin: 0px;
 	color: white;
+	font-family: 'Titillium Web', sans-serif;
+	text-orientation: sideways;
 }
 
-.box-3{
-	font-size: 25px;
+.column-3{
+	text-align: center;
+	width: auto;
+	margin-left: 300px;
+	margin-right: 300px;
 	background-color: white;
+	background-position: 300px;
+	line-height: 20px;
+	font-size: 10px;
 	color: blue;
+	font-family: 'Titillium Web', sans-serif;
 }
